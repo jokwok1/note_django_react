@@ -26,7 +26,7 @@ function App() {
             <Home />
           </ProtectedRoute>
         } />
-
+        <Route path="/logout" element={<Logout />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<RegisterAndLogout />} />
         <Route path="*" element={<NotFound />} />
